@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Livvic", "Arial", sans-serif;
+  margin-top: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.form__fixid {
+  width: 400px;
+  z-index: 100;
+  top: 0;
+}
+
+.umumiy__list, .emogi__img {
+  height: 92vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.list {
+  transition: background-color 0.2s ease;
+}
+
+.list:hover {
+  background-color: rgb(243, 235, 235);
+}
+
+.list__heading {
+  width: 300px;
+}
+
+.list__text {
+  width: 220px;
+}
+
+.new__masage {
+  max-width: 50px;
+  padding: 0 4px;
+  border-radius: 15px;
+}
+
+.imojs__wrapper {
+  width: 300px;
+}
+
+.Emoj__yozuv {
+  top: 0;
+  z-index: 100;
+  width: 300px;
+  height: 54px;
+}
+
+.emogi__link {
+  color: #fff;
+}
+
+.emogi__link:hover {
+  COLOR: #ccc;
+}
